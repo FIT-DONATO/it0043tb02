@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRACTICE</title>
+</head>
+
+<body>
+    <form action="#" name="form_submit" method="post">
+        <label for-"Username">Username: </label>
+        <input type="text" name="username" id="username" value="(+63)" readonly><br><br>
+        <label for-"Password:">Password: </label>
+        <input type="password" name="password" id="password" placeholder="6 - 10 characters" minlength="6"
+            maxlength="10">
+        <br><br>
+        Choose one program from the options:
+        <br>
+        <input type="radio" name="program" id="bsit" checked><label for="BSIT">BSIT</label><br>
+        <input type="radio" name="program" id="bscs"><label for="BSCS">BSCS</label><br>
+        <input type="radio" name="program" id="bma"><label for="BMA">BMA</label><br>
+        <br>
+        Choose one food from the options:
+        <br>
+        <input type="checkbox" name="food" id="hatdog" checked><label for="hatdog">Hatdog</label><br>
+        <input type="checkbox" name="food" id="burger"><label for="burger">Burger</label><br>
+        <input type="checkbox" name="food" id="ham"><label for="ham">Ham</label><br>
+        <br>
+        <label for="color">Choose a color: </label>
+        <input type="color" name="color" id="color" value="#ffffff">
+        <br><br>
+        <label for="color">Pick a date: </label>
+        <input type="date" name="date" id="date" min="2024-05-03" max="2025-05-03">
+        <br><br>
+        <label for="color">Enter your email: </label>
+        <input type="email" name="email" id="email" disabled>
+        <br><br>
+        <label for="number">Enter a number: </label>
+        <input type="number" name="number" id="number" min="0" max="10">
+        <br><br>
+        <label for="telephone">Enter telephone number: </label>
+        <input type="tel" name="telephone" id="telephone" required minlength="6">
+        <br><br>
+        <label for="cc">Enter Country Code: </label>
+        <input type="tex" name="cc" id="cc" placeholder="[A-Za-z]{3}" pattern="[A-Za-z]{4}">
+        <br><br>
+        <label for="comment">Comment: </label>
+        <textarea name="comment" id="comment" cols="" rows="">
+            </textarea>
+        <br><br>
+        <input type="submit" name="submit" id="submit">
+        <br><br>
+        <a.href="link"><button>save</button></a.href>
+    </form>
+    <br><br>
+    <select name="select" id="select">
+        <option value="Hotdog">Hotdog</option>
+        <option value="Hamburger">Hamburger</option>
+        <option value="Footlong">Footlong</option>
+    </select>
+    <br><br>
+    <input list="browsers">
+    <datalist id="browsers">
+        <option value="Edge">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Safari">
+    </datalist>
+    <br><br>
+    <table border="2" align="center" bgcolor="gree">
+        <caption>
+            <font color="green" size="4"><b><i>Course Codes and Descriptions</i></b></font><br>
+        </caption>
+        <tr bgcolor="green">
+            <th>
+                <font color="white">Course Code</font>
+            </th>
+            <th>
+                <font color="white">Course Description</font>
+            </th>
+            <th>
+                <font color="white">Units</font>
+            </th>
+        </tr>
+        <tr align="center">
+            <td rowspan="2">IT0043</td>
+            <td>Web Design</td>
+            <td rowspan="2">1</td>
+        </tr>
+        <tr align="center">
+            <td>w/ Client Scripting</td>
+        </tr>
+        <tr align="center">
+            <td colspan="2">CCS007 - LECTURE</td>
+            <td>3</td>
+        </tr>
+    </table>
+</body>
+
+</html>
