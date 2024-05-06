@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>donato_tsa3</title>
+</head>
+
+<body align="center">
+    <form action="#" name="form_submit" method="post">
+        <label for="National Dex">National Dex: </label>
+        <input type="number" name="dex" id="dex"><br><br>
+        <input type="radio" name="generation" id="gen1"><label for="Generation 1">Generation 1</label>
+        <input type="radio" name="generation" id="gen2"><label for="Generation 2">Generation 2</label>
+        <input type="radio" name="generation" id="gen3"><label for="Generation 3">Generation 3</label>
+        <input type="radio" name="generation" id="gen3"><label for="Generation 4">Generation 4</label>
+        <input type="radio" name="generation" id="gen3"><label for="Generation 5">Generation 5</label>
+        <input type="radio" name="generation" id="gen3"><label for="Generation 6">Generation 6</label>
+        <input type="radio" name="generation" id="gen3"><label for="Generation 7">Generation 7</label>
+        <input type="radio" name="generation" id="gen3"><label for="Generation 8">Generation 8</label>
+        <input type="radio" name="generation" id="gen3"><label for="Generation 9">Generation 9</label>
+        <br><br>
+        <label for="Pokemon Name">Pokemon Name: </label>
+        <input type="text" name="name" id="name"><br><br>
+        <label for="image">Image: </label>
+        <input type="file" name="image" id="image">
+        <br><br>
+        <label for="Types">Type 1: </label>
+        <input list="Types">
+        <datalist id="Types">
+            <option value="Normal">
+            <option value="Fire">
+            <option value="Water">
+            <option value="Electric">
+            <option value="Grass">
+            <option value="Ice">
+            <option value="Fighting">
+            <option value="Poison">
+            <option value="Ground">
+            <option value="Flying">
+            <option value="Psychic">
+            <option value="Bug">
+            <option value="Rock">
+            <option value="Ghost">
+            <option value="Dragon">
+            <option value="Dark">
+            <option value="Steel">
+            <option value="Fairy">
+        </datalist>
+        <label for="Types">Type 2: </label>
+        <input list="Types">
+        <datalist id="Types">
+            <option value="Normal">
+            <option value="Fire">
+            <option value="Water">
+            <option value="Electric">
+            <option value="Grass">
+            <option value="Ice">
+            <option value="Fighting">
+            <option value="Poison">
+            <option value="Ground">
+            <option value="Flying">
+            <option value="Psychic">
+            <option value="Bug">
+            <option value="Rock">
+            <option value="Ghost">
+            <option value="Dragon">
+            <option value="Dark">
+            <option value="Steel">
+            <option value="Fairy">
+        </datalist>
+        <br><br>
+        <label for="Evolves from">Evolves from: </label>
+        <input type="text" name="Evolves from" id="Evolves from">
+        <label for="Evolves to">Evolves to: </label>
+        <input type="text" name="Evolves to" id="Evolves to">
+        <br><br>
+        <label for="Nickname">Nickname: </label>
+        <input type="text" name="Nickname" id="Nickname">
+        <br><br>
+        <label for="birthday">Birthday: </label>
+        <input type="date" name="Birthday" id="Birthday">
+        <br><br>
+        <input type="submit" name="submit" id="submit">
+        <br><br>
+
+
+        <table border="2" align="center">
+            <tr>
+                <th>
+                    National Dex
+                </th>
+                <th>
+                    Generation
+                </th>
+                <th>
+                    Pokemon Name
+                </th>
+                <th>
+                    Image
+                </th>
+                <th>
+                    Type 1
+                </th>
+                <th>
+                    Type 2
+                </th>
+                <th>
+                    Evolves From
+                </th>
+                <th>
+                    Evolves To
+                </th>
+                <th>
+                    Nickname
+                </th>
+                <th>
+                    Birthday
+                </th>
+            </tr>
+            <tr align="center">
+                <td>19</td>
+                <td>Generation Z</td>
+                <td>Donato</td>
+                <td><img src="https://lh3.googleusercontent.com/a/ACg8ocJJb067NksBBsk2NbAGn_UXbkhylcw0QjeHnx95HKzrgL7EMr9B=s288-c-no" alt="pikachu"
+                    height="120px" /></td>
+                <td colspan="2" bgcolor="orange"><b><i>Shane Nicole Deocareza</i></b></td>
+                <td>Fetus</td>
+                <td>Adult</td>
+                <td>Donny</td>
+                <td>October 28, 2004</td>
+            </tr>
+            <tr align="center">
+                <td>25</td>
+                <td>Generation 1</td>
+                <td>Pikachu</td>
+                <td><img src="https://img.pokemondb.net/sprites/home/normal/2x/avif/pikachu.avif" alt="pikachu"
+                        height="120px"/></td>
+                <td colspan="2" bgcolor="yellow">Electric</td>
+                <td>Pichu</td>
+                <td>Raichu</td>
+                <td>Daga</td>
+                <td>December 06, 2008</td>
+            </tr>
+            <tr align="center">
+                <td>41</td>
+                <td>Generation 1</td>
+                <td>Zubat</td>
+                <td><img src="https://img.pokemondb.net/sprites/home/normal/2x/avif/zubat.avif" alt="zubat" height="120px"/></td>
+                <td bgcolor="violet">Poison</td>
+                <td bgcolor="blueeee">Flying</td>
+                <td>-</td>
+                <td>Golbat</td>
+                <td>paniki</td>
+                <td>December 27, 1995</td>
+            </tr>
+            <tr align="center">
+                <td>50</td>
+                <td>Generation 1</td>
+                <td>Diglett</td>
+                <td><img src="https://img.pokemondb.net/sprites/home/normal/2x/avif/diglett.avif" alt="diglett" height="120px"/></td>
+                <td colspan="2" bgcolor="brown"><font color="white">Ground</font></td>
+                <td>-</td>
+                <td>Dugtrio</td>
+                <td>uod</td>
+                <td>-</td>
+            </tr>
+            <tr align="center">
+                <td>152</td>
+                <td>Generation 2</td>
+                <td>Chikorita</td>
+                <td><img src="https://img.pokemondb.net/sprites/home/normal/2x/avif/chikorita.avif" alt="chikorita" height="120px"/></td>
+                <td colspan="2" bgcolor="greenn">Grass</td>
+                <td>-</td>
+                <td>Bayleef</td>
+                <td>Upo</td>
+                <td>-</td>
+            </tr>
+            <tr align="center">
+                <td>183</td>
+                <td>Generation 2</td>
+                <td>Marill</td>
+                <td><img src="https://img.pokemondb.net/sprites/home/normal/2x/avif/marill.avif" alt="Marill" height="120px"/></td>
+                <td bgcolor="blue"><font color="white">Water</font></td>
+                <td bgcolor="pink">Fairy</td>
+                <td>Azumarill</td>
+                <td>-</td>
+                <td>Hmaster</td>
+                <td>-</td>
+            </tr>
+            <tr align="center">
+                <td>194</td>
+                <td>Generation 2</td>
+                <td>Wooper</td>
+                <td><img src="https://img.pokemondb.net/sprites/home/normal/2x/avif/wooper.avif" alt="wooper" height="120px"/></td>
+                <td bgcolor="blue"><font color="white">Water</font></td>
+                <td bgcolor="brown"><font color="white">Ground</font></td>
+                <td>-</td>
+                <td>Clodsire</td>
+                <td>Axoltl</td>
+                <td>-</td>
+            </tr>
+            <tr align="center">
+                <td>261</td>
+                <td>Generation 3</td>
+                <td>Poochyena</td>
+                <td><img src="https://img.pokemondb.net/sprites/home/normal/2x/avif/poochyena.avif" alt="poochyena" height="120px"/></td>
+                <td colspan="2" bgcolor="black"><font color="white">Dark</font>></td>
+                <td>-</td>
+                <td>Mightyena</td>
+                <td>Hyena</td>
+                <td>=</td>
+            </tr>
+            <tr align="center">
+                <td>280</td>
+                <td>Generation 3</td>
+                <td>Ralts</td>
+                <td><img src="https://img.pokemondb.net/artwork/avif/ralts.avif" alt="Ralts" height="120px"/></td>
+                <td bgcolor="red"><font color="white">Psychic</font></td>
+                <td bgcolor="pink">Fairy</td>
+                <td>-</td>
+                <td>Kirlia</td>
+                <td>Mushroom</td>
+                <td>-</td>
+            </tr>
+            <tr align="center">
+                <td>316</td>
+                <td>Generation 3</td>
+                <td>Gulpin</td>
+                <td><img src="https://img.pokemondb.net/sprites/home/normal/2x/avif/gulpin.avif" alt="Gulpin" height="120px"/></td>
+                <td colspan="2" bgcolor="violet">Poison</td>
+                <td>-</td>
+                <td>Swalot</td>
+                <td>Slime</td>
+                <td>-</td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
