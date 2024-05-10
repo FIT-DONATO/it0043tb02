@@ -1,0 +1,10 @@
+#username{
+    background-color:rgb(213, 176, 247);
+}
+#username:hover{
+    background-color: aquamarine;
+}
+
+li:first-child{
+    color: brown;
+}
