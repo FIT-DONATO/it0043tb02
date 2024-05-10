@@ -1,0 +1,26 @@
+.p1 {
+  color: brown;
+  font-size: 16px;
+}
+
+.size{
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+}
+
+.p2{
+    font-size: 2rem;
+}
+
+.p3{
+    font-size: 2em;
+}
+
+body{
+    font-size: 20px;
+}
+
+.sizes{
+    font-size: 4 em;
+}
