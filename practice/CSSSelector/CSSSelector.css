@@ -1,0 +1,35 @@
+p {
+  font-size: 20px;
+  font-style: italic;
+  color: rgb(10, 87, 255);
+}
+
+.p1 {
+  font-size: 32px;
+  font-style: normal;
+  color: rgb(241, 25, 90);
+}
+
+.p2 {
+  color: blueviolet;
+}
+
+#p3 {
+  color: crimson;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+div p {
+  color: rgb(35, 158, 31);
+}
+
+h1,
+h2 {
+  color: darkgoldenrod;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.p1,
+.p2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
