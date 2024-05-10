@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+    <style>
+      h2 {
+        color: blueviolet;
+        text-decoration: line-through;
+        font-size: 60px;
+      }
+      p{
+        text-align: center;
+        color: rgb(88, 11, 11);
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="font-size: 32px; color: rgb(39, 63, 19); font-style: italic">
+      Heading 1
+    </h1>
+    <h2>Heading 2</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolor,
+      accusamus voluptate eius nihil sunt, minima doloribus natus corporis
+      commodi dolore tempora illo, ad delectus iure totam rem suscipit deleniti.
+    </p>
+  </body>
+</html>
