@@ -1,0 +1,12 @@
+.bg{
+    width: 30vw;
+    height: 30vh;
+    /* background-color: black; */
+    margin: 0% auto;
+    /* background-image: url("tsa2_bgpic.png");
+    background-size: cover; */
+    /* background-position: center; */
+    background: linear-gradient(to left, red, orange, yellow); 
+    /* url("tsa2_bgpic.png") center no-repeat; */
+    background-size: cover;
+}
