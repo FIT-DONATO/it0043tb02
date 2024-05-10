@@ -1,0 +1,33 @@
+.one {
+  background-color: antiquewhite;
+  width: 50vw;
+  height: 20vh;
+  margin: 0% auto;
+}
+
+.two {
+  background-color: aqua;
+  width: 80%;
+  height: 80%;
+  margin: 0% auto;
+}
+
+.three{
+    background-color: blueviolet;
+    width: 80%;
+    height: 80%;
+    margin: 0% auto;
+  
+}
+
+.container{
+    background-color: rgb(33, 97, 97);
+    padding: 50px;
+}
+
+p{
+    background-color: aquamarine;
+    padding: 50px;
+    color: rgb(5, 23, 39);
+    opacity: 0.5;
+}
