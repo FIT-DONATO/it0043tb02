@@ -1,0 +1,10 @@
+h1{
+    color: blueviolet;
+}
+p{
+    font-style: italic;
+    font-weight: bold;
+}
+p{
+    font-weight: normal;
+}
