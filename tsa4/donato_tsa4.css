@@ -1,0 +1,64 @@
+body {
+  font-family: "Oswald";
+  width: 100vw;
+  height: 105vh;
+  margin: 0% auto;
+  background-position: center;
+  background-image: url("tsa2_bgpic.png");
+  background-size: cover;
+  line-height: 20px;
+}
+
+.logo {
+  width: 8vw;
+  padding-left: 25px;
+}
+
+.image {
+  width: 10vw;
+  padding-left: 848px;
+}
+
+.image-2 {
+  width: 8vw;
+  padding-left: 870px;
+}
+
+.p2 {
+  font-size: 40px;
+}
+
+.end {
+  color: aliceblue;
+  text-align: right;
+  padding-right: 50px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.green {
+  font-weight: bold;
+  color: rgb(20, 87, 24);
+}
+
+h1 {
+  color: rgb(68, 105, 27);
+  font-size: 80px;
+  text-align: center;
+  line-height: 40px;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  line-height: 40px;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  line-height: 20px;
+}
