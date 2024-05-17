@@ -1,0 +1,37 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.container {
+  /* background-color: aquamarine; */
+  border: 8px rgb(8, 20, 4) dotted;
+  width: 80vw;
+  /* height: 50vh; */
+  margin: 30px auto;
+  background-image: url(https://i.pinimg.com/564x/69/07/50/69075094115e3843d4991347d8657ac0.jpg);
+  background-size: cover;
+  text-align: center;
+  padding: 30px;
+  border-style: solid;
+  box-shadow: 15px 15px 1px rgb(155, 152, 152);
+  min-width: 500px;
+  max-width: 1000px;
+}
+
+.heading {
+  margin-top: 40px;
+  font-size: 5rem;
+}
+
+.subheading {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin: 15px 0;
+}
