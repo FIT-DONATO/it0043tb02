@@ -1,0 +1,29 @@
+.container {
+  /* background-color: aquamarine; */
+  /* border: 1px black solid; */
+  width: 80vw;
+  /* height: 50vh; */
+  margin: 0% auto;
+}
+
+div{
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.d1{
+  background-color: aqua;
+  display: inline;
+}
+
+.d2{
+  background-color:blueviolet;
+  display: inline-block;
+}
+
+.d3{
+  background-color: chocolate;
+  display: block;
+}
