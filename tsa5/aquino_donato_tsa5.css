@@ -1,0 +1,171 @@
+.container {
+  width: auto;
+  height: auto;
+  background-image: url(https://wallpapercave.com/wp/wp2595124.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px rgb(8, 20, 4) solid;
+  border-radius: 2%;
+  padding: 2rem;
+}
+
+.card {
+  width: 26vw;
+  height: 74vh;
+  background-image: url(https://i.pinimg.com/564x/f5/11/0a/f5110abf4118967b60eea8addb6b5120.jpg);
+  background-size: cover;
+  text-align: center;
+  box-shadow: 5px 5px 1px rgb(56, 51, 51);
+  align-items: center;
+  border: 2px rgb(8, 20, 4) solid;
+  border-radius: 5%;
+  display: inline-block;
+  margin-left: 5rem;
+  overflow: hidden;
+}
+.image {
+  padding-top: 140px;
+  width: 10vw;
+  height: 20vh;
+  margin-bottom: 9rem;
+}
+.infos {
+  font-weight: bold;
+  text-align: center;
+  height: 180px;
+  width: 250px;
+  margin: 5% auto;
+}
+.fairy {
+  padding: 5px 8px;
+  text-shadow: 2px 2px 1px rgb(26, 24, 24);
+  color: aliceblue;
+  background-color: rgb(255, 0, 170);
+  box-shadow: 2px 2px 1px rgb(85, 82, 82);
+  border-radius: 8px;
+}
+.bgcolor1 {
+  margin: 0% auto;
+  width: 26vw;
+  height: 23.5vh;
+  background-color: rgb(255, 191, 236);
+  border-radius: 25px;
+  border: 2px rgb(8, 20, 4) solid;
+}
+h4 {
+  margin: 2px 10px 30px 10px;
+  text-align: left;
+}
+.add {
+  font-weight: bold;
+  font-size: 15px;
+  padding: 8px 5px;
+  background-color: rgb(121, 151, 216);
+  border-radius: 25px;
+  display: inline-block;
+  box-shadow: 2px 2px 1px rgb(85, 82, 82);
+  margin: 0px 15px;
+}
+.release {
+  font-weight: bold;
+  font-size: 15px;
+  padding: 8px 5px;
+  background-color: rgb(216, 121, 121);
+  border-radius: 25px;
+  display: inline-block;
+  box-shadow: 2px 2px 1px rgb(85, 82, 82);
+  margin: 0px 15px;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+.add:hover {
+  background-color: rgb(81, 81, 224);
+}
+
+.release:hover {
+  background-color: rgb(224, 81, 81);
+}
+
+.poison {
+  padding: 5px 8px;
+  text-shadow: 2px 2px 1px rgb(26, 24, 24);
+  color: rgb(254, 240, 255);
+  background-color: rgb(85, 15, 62);
+  box-shadow: 2px 2px 1px rgb(85, 82, 82);
+  border-radius: 8px;
+}
+
+.flying {
+  padding: 5px 8px;
+  text-shadow: 2px 2px 1px rgb(26, 24, 24);
+  color: aliceblue;
+  background-color: rgb(171, 195, 247);
+  box-shadow: 2px 2px 1px rgb(85, 82, 82);
+  border-radius: 8px;
+}
+
+.fire {
+  padding: 5px 8px;
+  text-shadow: 2px 2px 1px rgb(26, 24, 24);
+  color: aliceblue;
+  background-color: rgb(192, 34, 10);
+  box-shadow: 2px 2px 1px rgb(85, 82, 82);
+  border-radius: 8px;
+}
+
+.fighting {
+  padding: 5px 8px;
+  text-shadow: 2px 2px 1px rgb(26, 24, 24);
+  color: aliceblue;
+  background-color: rgb(102, 11, 39);
+  box-shadow: 2px 2px 1px rgb(85, 82, 82);
+  border-radius: 8px;
+}
+
+.psychic {
+    padding: 5px 8px;
+    text-shadow: 2px 2px 1px rgb(26, 24, 24);
+    color: aliceblue;
+    background-color: #9b2a4e;
+    box-shadow: 2px 2px 1px rgb(85, 82, 82);
+    border-radius: 8px;
+  }
+  
+.bgcolor2 {
+  margin: 0% auto;
+  width: 26vw;
+  height: 23.5vh;
+  background-color: rgb(216, 81, 175);
+  border-radius: 25px;
+  border: 2px rgb(8, 20, 4) solid;
+}
+
+.bgcolor3 {
+  margin: 0% auto;
+  width: 26vw;
+  height: 23.5vh;
+  background-color: rgb(235, 89, 84);
+  border-radius: 25px;
+  border: 2px rgb(8, 20, 4) solid;
+}
+
+.bgcolor4 {
+  margin: 0% auto;
+  width: 26vw;
+  height: 23.5vh;
+  background-color: rgb(165, 13, 58);
+  border-radius: 25px;
+  border: 2px rgb(8, 20, 4) solid;
+}
+
+.bgcolor5 {
+  margin: 0% auto;
+  width: 26vw;
+  height: 23.5vh;
+  background-color: #EF4179;
+  border-radius: 25px;
+  border: 2px rgb(8, 20, 4) solid;
+}
