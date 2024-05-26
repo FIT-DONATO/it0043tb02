@@ -1,0 +1,61 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-shadow: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./Pokemon-Wallpaper-4k-Download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 0% auto;
+    display: flex;
+}
+
+.card{
+    width: 25%;
+    height: 82%;
+    background-image: url(https://i.pinimg.com/originals/55/1b/4d/551b4d681cf49955b9482e816744a85b.jpg);
+    border: 5px black solid;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 10px 10px rgb(1, 53, 53);
+}
+
+.infos{
+    width: 24vw;
+    height: 40vh;
+    margin: 0% auto;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+img{
+    padding-top: 9.5rem;
+    height: 25%;
+    margin: 0% auto;
+    padding-bottom: 2.5rem;
+}
+
+.bgcolor{
+    background-color: rgb(15, 73, 73);
+}
+
+h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+h4{
+    padding: 0px 20px 0px 20px;
+    text-align: left;
+}
+
+h5{
+    padding: 0px 20px 0px 20px;
+    text-align: left;
+}
