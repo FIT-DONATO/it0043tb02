@@ -1,0 +1,151 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.container {
+  padding-top: 20px;
+  width: 100vw;
+  display: flex;
+  background-image: url(./Pokemon-Wallpaper-4k-Download.jpg);
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-repeat: no-repeat;
+  background-size: cover;
+  gap: 20px;
+  column-gap: 8px;
+}
+
+.bgcolor {
+  width: 420px;
+  height: 420px;
+  flex-direction: row;
+  border-radius: 10px;
+  border: black solid;
+  box-shadow: 7px 7px rgb(26, 25, 25);
+}
+
+.size {
+  width: 380px;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+.size2 {
+  width: 120px;
+  justify-content: end;
+  padding: 20px;
+  padding-left: 350px;
+}
+
+.bulbasaur {
+  background-color: rgb(70, 185, 147);
+}
+
+.eevee {
+  background-color: rgb(185, 135, 70);
+}
+
+.eevee {
+  background-color: rgb(185, 135, 70);
+}
+
+.mankey {
+  background-color: rgb(255, 214, 160);
+}
+
+.pikachu {
+  background-color: rgb(236, 236, 121);
+}
+
+.mew {
+  background-color: rgb(239, 187, 255);
+}
+
+.meowth {
+  background-color: rgb(255, 232, 169);
+}
+
+.pidgey {
+  background-color: rgb(255, 255, 191);
+}
+
+.psyduck {
+  background-color: rgb(250, 250, 63);
+}
+
+.jigglypuff {
+  background-color: rgb(242, 103, 255);
+}
+
+.dratini {
+  background-color: rgb(53, 138, 207);
+}
+
+.charmander {
+  background-color: rgb(228, 121, 20);
+}
+.caterpie {
+  background-color: rgb(70, 214, 70);
+}
+
+p {
+  font-weight: bold;
+  flex-direction: row;
+  display: none;
+}
+
+.pokeball {
+  width: 200px;
+  justify-self: center;
+}
+
+@media (max-width: 1600px) {
+  .bgcolor {
+    width: 500px;
+    height: 500px;
+    transition: 10;
+  }
+  .size {
+    width: 420px;
+    padding-left: 35px;
+    padding-top: 45px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: inline-block;
+  }
+
+  h1 {
+    display: inline-block;
+  }
+
+  .bgcolor {
+    width: 900px;
+    height: 200px;
+    justify-content: space-evenly;
+    display: inline-block;
+    margin-left: 35px;
+  }
+
+  .size {
+    width: 180px;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+
+  .pokeball {
+    display: inline-block;
+  }
+
+  P {
+    display: inline-flex;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-top: 50px;
+  }
+}
