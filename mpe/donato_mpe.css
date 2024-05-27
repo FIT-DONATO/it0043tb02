@@ -119,7 +119,7 @@ span {
     transition: 0.5s ease-in-out;
   }
 
-  :hover.bgcolor {
+  .bgcolor:hover {
     background-image: url(./newbg.jpg);
     transition: 0.5s ease-in-out;
     background-repeat: no-repeat;
