@@ -272,7 +272,7 @@ h6 {
 }
 
 
-@media (max-width: 2200px) {
+@media (max-width: 1850px) {
   .news-cont {
     height: 700px;
   }
@@ -286,7 +286,7 @@ h6 {
   }
 }
 
-@media (max-width: 2150px) {
+@media (max-width: 1800px) {
 
   .news-cont {
     height: fit-content;
@@ -307,7 +307,7 @@ h6 {
 }
 
 
-@media (max-width: 2000px) {
+@media (max-width: 1600px) {
 
   .boxes {
     justify-content: space-evenly;
@@ -345,7 +345,7 @@ h6 {
   }
 }
 
-@media (max-width: 1800px) {
+@media (max-width: 1400px) {
 
   .boxes {
     justify-content: space-between;
