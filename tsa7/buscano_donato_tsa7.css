@@ -11,6 +11,7 @@
 }
 
 nav {
+  width: 100vw;
   background-color: rgb(15, 15, 15);
   color: rgb(255, 255, 255);
   padding: 15px 0%;
@@ -126,13 +127,16 @@ h3 {
 }
 
 .box-cont {
-  height: fit-content;
+  width: fit-content;
+
+  height: max-content;
   flex-direction: column;
   place-content: center;
   padding: 20px;
   background-color: #eeeeee;
   border: 2px solid black;
   border-radius: 10px;
+  justify-content: space-evenly;
 }
 
 .box-cont:hover {
@@ -155,14 +159,15 @@ h3 {
 }
 
 .box-img {
-  width: 340px;
-  height: 500px;
+  width: 250px;
+  height: 400px;
   object-fit: cover;
   object-position: top;
   border-radius: 5px;
   box-shadow: 2px 2px 2px grey;
   margin-bottom: 10px;
   border: 2px solid black;
+
 }
 
 p {
@@ -179,7 +184,7 @@ h5 {
 
 h6 {
   font-size: .8rem;
-  width: 350px;
+  width: 250px;
   padding: 8px;
   border-radius: 8px;
   box-shadow: 2px 2px 2px grey;
@@ -310,13 +315,19 @@ h6 {
 @media (max-width: 1600px) {
 
   .boxes {
-    justify-content: space-evenly;
+justify-content: space-evenly;
     grid-row: 2/4;
     grid-column: 1/7;
   }
 
+  .box-cont{
+    width: fit-content;
+  }
+.box-cont p{
+  font-size: 1.5rem;
+}
   .box-img {
-    width: 400px;
+    width: 250px;
     height: 500px;
     transition: .5s ease-in-out;
   }
@@ -348,11 +359,13 @@ h6 {
 @media (max-width: 1400px) {
 
   .boxes {
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
-
-  .box-img {
-    width: 360px;
+  .box-cont p{
+    font-size: 1.2rem;
+  }
+    .box-img {
+    width: 200px;
     height: 450px;
     transition: .5s ease-in-out;
   }
