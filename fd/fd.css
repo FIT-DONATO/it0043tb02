@@ -74,7 +74,7 @@ p {
     background-color: rgb(255, 255, 216);
     margin-top: 125px;
     width: 30vw;
-    height: 72vw;
+    height: fit-content;
     transition: .5s ease-in-out;
     border: rgb(22, 22, 22) solid 4px;
     transition: .5s ease-in-out;
