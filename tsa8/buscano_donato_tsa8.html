@@ -8,8 +8,11 @@
   </head>
   <body>
     <div class="main">
+        
       <div class="main-container">
-        <div class="container">
+
+        <div id="container" class="container">
+
           <div class="card">
             <div class="bg1">
               <h1 class="content">1</h1>
@@ -17,96 +20,72 @@
           </div>
 
           <div class="card">
-            <div class="bg2">
-              <h1 class="content">2</h1>
+            <div class="bg1">
+              <h1 class="content">1</h1>
             </div>
           </div>
 
           <div class="card">
-            <div class="bg3">
-              <h1 class="content">3</h1>
+            <div class="bg1">
+              <h1 class="content">1</h1>
             </div>
           </div>
+
         </div>
+
       </div>
 
-      <div class="controls">
+      <div id="controls" class="controls">
+
         <div class="first">
-          <button class="btn" id="reset">RESET FLEXBOX</button>
+          <button class="btn" id="reset" onclick="resetFlexbox()">RESET FLEXBOX</button>
         </div>
 
         <div class="second">
           <button class="btn">GAP</button>
-          <input
-            type="number"
-            oninput="changeGap()"
-            class="box"
-            name=""
-            id="gap"
-            value="0"
-            min="0"
-          />
+          <input type="number" oninput="changeGap()" class="box" id="gap" value="0" min="0"/>
         </div>
 
         <div class="third">
           <p>Flex Direction</p>
-          <button class="btn">Row</button>
-          <button class="btn">Column</button>
+          <button class="btn" onclick="changeFlexDirection('row')">Row</button>
+          <button class="btn" onclick="changeFlexDirection('column')">Column</button>
         </div>
 
         <div class="fourth">
           <p>Justify Content</p>
-          <button class="btn">Start</button>
-          <button class="btn">Center</button>
-          <button class="btn">End</button>
-          <button class="btn">Space Between</button>
-          <button class="btn">Space Around</button>
-          <button class="btn">Space Evenly</button>
+          <button class="btn" onclick="changeJustifyContent('start')">Start</button>
+          <button class="btn" onclick="changeJustifyContent('center')">Center</button>
+          <button class="btn" onclick="changeJustifyContent('end')">End</button>
+          <button class="btn" onclick="changeJustifyContent('space between')">Space Between</button>
+          <button class="btn" onclick="changeJustifyContent('space around')">Space Around</button>
+          <button class="btn" onclick="changeJustifyContent('space evenly')">Space Evenly</button>
         </div>
 
         <div class="fifth">
           <p>Align Items</p>
-          <button class="btn">Start</button>
-          <button class="btn">Center</button>
-          <button class="btn">End</button>
+          <button class="btn" onclick="changeAlignItems('start')">Start</button>
+          <button class="btn" onclick="changeAlignItems('center')">Center</button>
+          <button class="btn" onclick="changeAlignItems('end')">End</button>
         </div>
+
         <div class="sixth">
           <p>Flex Grow</p>
-          <button class="btn">Reset</button>
-          <button class="btn">Grow All</button>
+          <button class="btn" onclick="resetFlexGrow()">Reset</button>
+          <button class="btn" onclick="growAllCards()">Grow All</button>
         </div>
 
         <div class="seventh">
           <button class="btn">Box 1</button>
-          <input
-            type="number"
-            class="box"
-            name=""
-            id="box1"
-            value="0"
-            min="0"
-          />
+          <input type="number" class="box" id="box1" value="0" min="0" oninput="changeBoxGrow(0)"/>
           <button class="btn">Box 2</button>
-          <input
-            type="number"
-            class="box"
-            name=""
-            id="box2"
-            value="0"
-            min="0"
-          />
-
+          <input type="number" class="box" id="box2" value="0" min="0" oninput="changeBoxGrow(1)"/>
           <button class="btn">Box 3</button>
-          <input
-            type="number"
-            class="box"
-            name=""
-            id="box3"
-            value="0"
-            min="0"
-          />
+          <input type="number" class="box" id="box3" value="0" min="0" oninput="changeBoxGrow(2)"/>
         </div>
+        
       </div>
+
     </div>
 
     <script src="./buscano_donato_tsa8.js"></script>
