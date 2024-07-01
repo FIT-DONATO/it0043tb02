@@ -5,12 +5,16 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body {
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-}
+  body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./wowbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: end;
+  }
 
 .main {
     width: 90vw;
