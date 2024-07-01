@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Event delegation for buttons
   document.querySelector(".controls").addEventListener("click", (event) => {
     if (event.target.classList.contains("btn")) {
-      const action = event.target.textContent.toLowerCase().replace(" ", "-");
+      const action = event.target.textContent.toLowerCase();
       switch (action) {
         case "reset flexbox":
           resetFlexbox();
@@ -35,15 +35,15 @@ document.addEventListener("DOMContentLoaded", () => {
         case "start":
         case "center":
         case "end":
-        case "space-between":
-        case "space-around":
-        case "space-evenly":
-          container.style.justifyContent = action;
+        case "space between":
+        case "space around":
+        case "space evenly":
+          container.style.justifyContent = action.replace(" ", "-");
           break;
-        case "align-start":
-        case "align-center":
-        case "align-end":
-          container.style.alignItems = action.split("-")[1];
+        case "start":
+        case "center":
+        case "end":
+          container.style.alignItems = action;
           break;
         case "reset":
           container.querySelectorAll(".card").forEach(card => card.style.flexGrow = "0");
