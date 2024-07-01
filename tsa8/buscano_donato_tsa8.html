@@ -8,73 +8,58 @@
   </head>
   <body>
     <div class="main">
-        
       <div class="main-container">
-
         <div id="container" class="container">
-
-          <div class="card">
+          <div id="card1" class="card">
             <div class="bg1">
               <h1 class="content">1</h1>
             </div>
           </div>
-
-          <div class="card">
-            <div class="bg1">
-              <h1 class="content">1</h1>
+          <div id="card2" class="card">
+            <div class="bg2">
+                <h1 class="content">2</h1>
             </div>
           </div>
-
-          <div class="card">
-            <div class="bg1">
-              <h1 class="content">1</h1>
+          <div id="card3" class="card">
+            <div class="bg3">
+              <h1 class="content">3</h1>
             </div>
           </div>
-
         </div>
-
       </div>
-
-      <div id="controls" class="controls">
-
+      <div class="controls">
         <div class="first">
           <button class="btn" id="reset" onclick="resetFlexbox()">RESET FLEXBOX</button>
         </div>
-
         <div class="second">
           <button class="btn">GAP</button>
           <input type="number" oninput="changeGap()" class="box" id="gap" value="0" min="0"/>
         </div>
-
         <div class="third">
           <p>Flex Direction</p>
           <button class="btn" onclick="changeFlexDirection('row')">Row</button>
           <button class="btn" onclick="changeFlexDirection('column')">Column</button>
         </div>
-
         <div class="fourth">
           <p>Justify Content</p>
-          <button class="btn" onclick="changeJustifyContent('start')">Start</button>
+          <button class="btn" onclick="changeJustifyContent('flex-start')">Start</button>
           <button class="btn" onclick="changeJustifyContent('center')">Center</button>
-          <button class="btn" onclick="changeJustifyContent('end')">End</button>
-          <button class="btn" onclick="changeJustifyContent('space between')">Space Between</button>
-          <button class="btn" onclick="changeJustifyContent('space around')">Space Around</button>
-          <button class="btn" onclick="changeJustifyContent('space evenly')">Space Evenly</button>
+          <button class="btn" onclick="changeJustifyContent('flex-end')">End</button>
+          <button class="btn" onclick="changeJustifyContent('space-between')">Space Between</button>
+          <button class="btn" onclick="changeJustifyContent('space-around')">Space Around</button>
+          <button class="btn" onclick="changeJustifyContent('space-evenly')">Space Evenly</button>
         </div>
-
         <div class="fifth">
           <p>Align Items</p>
-          <button class="btn" onclick="changeAlignItems('start')">Start</button>
+          <button class="btn" onclick="changeAlignItems('flex-start')">Start</button>
           <button class="btn" onclick="changeAlignItems('center')">Center</button>
-          <button class="btn" onclick="changeAlignItems('end')">End</button>
+          <button class="btn" onclick="changeAlignItems('flex-end')">End</button>
         </div>
-
         <div class="sixth">
           <p>Flex Grow</p>
           <button class="btn" onclick="resetFlexGrow()">Reset</button>
           <button class="btn" onclick="growAllCards()">Grow All</button>
         </div>
-
         <div class="seventh">
           <button class="btn">Box 1</button>
           <input type="number" class="box" id="box1" value="0" min="0" oninput="changeBoxGrow(0)"/>
@@ -83,11 +68,8 @@
           <button class="btn">Box 3</button>
           <input type="number" class="box" id="box3" value="0" min="0" oninput="changeBoxGrow(2)"/>
         </div>
-        
       </div>
-
     </div>
-
     <script src="./buscano_donato_tsa8.js"></script>
   </body>
 </html>
